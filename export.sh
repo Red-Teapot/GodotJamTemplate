@@ -27,6 +27,10 @@ function exportAndUpload {
     echo "Done exporting the $ExportTemplate build!"
 }
 
+rm -rf ".export"
+mkdir -p ".export"
+touch ".export/.gdignore"
+
 exportAndUpload "Web" "web" "index.html"
 
 exportAndUpload "Windows" "windows" "$ItchProjectName.exe"
