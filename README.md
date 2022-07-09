@@ -26,3 +26,8 @@ setup is needed.
 
 After everything is set up, simply open Bash inside the project folder,
 run `./export.sh` and wait for it to finish.
+
+**Note:** After the first export, don't forget to go to your Itch project dashboard
+and make sure that the "This file will be played in the browser" checkbox is enabled 
+for the Web build. Once enabled, it should stay active, so you don't need to check it
+every time you export the project.
